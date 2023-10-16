@@ -1,0 +1,1269 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, td, tr {
+    color: #444444;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 18px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+div {
+    text-align: left;
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+    color: #444444;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.inner {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.opacity_on {
+    opacity: 1;
+}
+
+.opacity_off {
+    opacity: 0;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.clear {
+    clear: both;
+}
+
+.active {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+
+.floatL , .left{
+    float: left;
+}
+
+.floatR , .right{
+    float: right;
+}
+
+.marginL4 {
+    margin-left: 4px;
+}
+
+.marginL7 {
+    margin-left: 7px;
+}
+
+.marginL10 {
+    margin-left: 10px;
+}
+
+.temp_H10 {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+}
+
+.temp_H15 {
+    margin: 0;
+    padding: 0;
+    height: 15px;
+}
+
+.temp_H20 {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+}
+
+.temp_H30 {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+.temp_H40 {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+.temp_H50 {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.temp_H60 {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+}
+
+.temp_PR10 {
+    padding-right: 10px;
+}
+
+.temp_PB10 {
+    padding-bottom: 10px;
+}
+
+.temp_PT10 {
+    padding-top: 10px;
+}
+
+.temp_line1 {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ccc;
+}
+
+.temp_Bline1 {
+    border: 1px solid #ccc;
+}
+
+.temp_line2 {
+    margin: 45px 0 40px 0;
+    padding: 0;
+    border-top: 1px solid #d5d5d5;
+}
+
+.temp_line3 {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #cccccc;
+}
+
+.font_pink {
+    color: #eb217c;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+
+.font_blue {
+    color: #0fa8ff;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+
+.font_str {
+    font-weight: 600;
+}
+
+.font_normal {
+    font-weight: normal;
+}
+
+.font_sz13{
+    font-size: 13px;
+}
+
+
+.font_sz14{
+    font-size: 14px;
+}
+
+.font_sz15{
+    font-size: 15px;
+}
+
+.font_sz16{
+    font-size: 16px;
+}
+
+.font_sz17{
+    font-size: 17px;
+}
+
+.font_sz18{
+    font-size: 18px;
+}
+
+.font_sz24{
+    font-size: 24px;
+}
+
+.textC {
+    text-align: center;
+}
+
+.line_ht11 {
+    line-height: 1.1;
+}
+
+.line_ht18 {
+    line-height: 1.8;
+}
+
+.grey2 {
+    color: #222;
+}
+
+.grey3 {
+    color: #333;
+}
+
+.grey7 {
+    color: #777;
+    text-decoration: none;
+}
+
+.grey8{
+    color: #888;
+}
+
+.grey9{
+    color: #999;
+}
+
+.border_top {
+    border-top: 1px solid #dfdfdf;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.border_topC {
+    border-top: 1px solid #ccc;
+}
+
+.border_bottomC {
+    border-bottom: 1px solid #ccc;
+}
+
+.btn_check {
+    display: inline-block;
+
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid #c8c8c8;
+}
+
+
+.btn_check a:hover {
+    margin: 0;
+    text-decoration: none;
+    background: #fafafa;
+}
+
+
+.btn_blog_write {
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    background: #0fa8ff;
+    border: 1px solid #0fa8ff;
+}
+
+.btn_blog_write a:link {
+    white-space: nowrap;
+    text-decoration: none;
+    outline: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.5;
+    display: block;
+    white-space: nowrap;
+    margin: 0;
+    padding: 2px 18px 6px 19px;
+}
+
+.btn_blog_sym {
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fcfcfc;
+    border: 1px solid #e5e5e5;
+}
+
+.btn_blog_sym a{
+    white-space: nowrap;
+    text-decoration: none;
+    outline: 0;
+    color: #777;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 150%;
+    display: block;
+    white-space: nowrap;
+    margin: 0;
+    padding: 2px 8px 4px 8px;
+}
+
+.btn_blog_sym a:hover {
+    margin: 0;
+    text-decoration: none;
+    background: #f5f5f5;
+}
+
+.inner, .gnb, .util {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9999;
+}
+
+.util > li > a {
+    width: max-content;
+    display: inline-block;
+    height: 38px;
+    padding: 0 4px;
+    line-height: 37px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.go_top {
+    width: 74px;
+    height: 74px;
+    background: url("../img/go-top.png") no-repeat;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    font-size: 0px;
+    color: transparent;
+    text-indent: -999em;
+    z-index: 999;
+    border: 0;
+}
+
+#logoBtn {
+    font-size: 0;
+}
+
+.header_middle-logo {
+    width: 212px;
+    height: 100%;
+    flex-shrink: 0;
+    font-size: 0px;
+    margin: 0;
+    color: transparent;
+    padding: 0
+}
+
+
+.header_wrap {
+    width: 100%;
+    border-bottom: 1px solid #33AFE9;
+    margin-bottom: 9px;
+}
+
+.header_top {
+    height: 38px;
+    background-color: #33afe9;
+    border-bottom: 1px solid #4496D9;
+}
+
+.header_top .header_on {
+    background-color: #fff;
+    border: 1px solid #4496D9;
+    border-bottom: none;
+    color: #0f4e8a !important;
+}
+
+.gnb li {
+    white-space:nowrap;
+}
+
+.header_top .inner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 9999;
+}
+
+
+#head_book_layer.header_layer_box .banner img, #head_coffee_layer.header_layer_box .banner img {
+    border-radius: 15px;
+}
+
+.header_top .header_layer_box .category > div {
+    display: flex;
+    position: relative;
+}
+
+.header_top .header_layer_box .category > div h4 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    padding: 0;
+    color: #333;
+}
+
+.header_top .header_layer_box .usedfaq {
+    margin-bottom: 35px;
+}
+
+.header_top .header_layer_box {
+    background-color: #fff;
+    box-shadow: 0px 3px 16px #00000033;
+    padding: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 38px;
+    z-index: 10000;
+    display: flex;
+    width: 1030px;
+    left: 0px;
+}
+
+#head_bookstore_layer.header_layer_box_s {
+    width: 110px;
+    height: auto;
+    left: 688px;
+    background-color: #fff;
+    box-shadow: 0px 3px 16px #00000033;
+    padding: 14px 18px 10px 18px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 38px;
+    z-index: 10000;
+}
+
+#head_bookstore_layer.header_layer_box_s a{
+    line-height: normal;
+    font-weight: normal;
+}
+
+.header_top .header_layer_box .category h3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+.header_top .header_layer_box .category h3 a {
+    font-size: 15px;
+    background: url(https://image.aladin.co.kr/img/header/2023/arr_go.svg) no-repeat center right 1px / 6px auto;
+    padding-right: 12px;
+    letter-spacing: -0.01em;
+    font-weight: bold;
+}
+
+
+.header_top .header_layer_box .category {
+    display: flex;
+    font-weight: normal;
+    padding-top: 40px;
+    position: relative;
+}
+
+.header_top .header_layer_box .category ul {
+    width: 150px;
+    margin-top: 25px;
+}
+
+.header_top .header_layer_box .category a {
+    display: block;
+    font-size: 13px;
+    padding: 0;
+    color: #333;
+    text-align: left;
+    font-weight: normal;
+
+    /* height: 30px; */
+    height: 28px;
+    line-height: normal;
+}
+
+.header_top #head_coffee_layer.header_layer_box {
+    width: 660px;
+    height: auto;
+    left:350px;
+
+}
+
+.header_top #head_music_layer.header_layer_box {
+    width: 660px;
+    height: auto;
+    left:350px;
+}
+
+.header_top a, .gnb > li > a {
+    width: max-content;
+    display: inline-block;
+    padding: 0 7px;
+    line-height: 37px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    overflow: hidden;
+    letter-spacing: -0.5px;
+    border: 1px solid transparent;
+
+}
+
+
+.banner img {
+    border-radius: 20px;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.header_middle {
+    width: 1030px;
+    height: 88px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+
+.header_middle h1 > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    font-size: 0;
+}
+
+#global_search {
+    background: url("../img/bg_search.png") no-repeat!important;
+    width: 535px;
+    top: 28px;
+    height: 41px;
+    position: relative;
+}
+
+.search_btn {
+    width: 56px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 68px;
+    top: 28px;
+}
+
+#searchTarget {
+    height: 18px;
+    overflow: hidden;
+}
+
+#global_search dl {
+    float: left;
+    width: 78px;
+    margin: 12px 0 0 20px;
+}
+
+#global_search dt {
+    background: url("../img/i_arrdown.gif") no-repeat right 5px;
+    color: #2f9ddc;
+    font-weight: bold;
+    float: left;
+    width: 78px;
+
+}
+
+#serachInput-box{
+    float: left;
+    width: 282px;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+#serachInput-txt {
+    border: 0px solid transparent;
+    background-color: transparent;
+    width: 280px;
+    color: #006699;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline;
+    outline-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-position-y: 3px;
+}
+
+.icon-down {
+    float: left;
+    width: 29px;
+}
+
+.ad_box {
+    width: 192px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    text-align: right;
+}
+
+.header_bottom {
+    width: 1030px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_bottom > ul.l_menu > li > a .new {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #F32383;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 12px;
+    font-size: 9px;
+    font-weight: normal;
+    margin: -2px 0 0 0px;
+    vertical-align: middle;
+}
+
+.slick-arrow {
+    opacity: 0;
+    position: absolute;
+}
+
+.RE_banner_new {
+    width: 1030px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+.RE_banner_new .close a {
+    display: block;
+    height: 100%;
+    background: url(https://image.aladin.co.kr/img/bn/book/2022/04/roof_close_btn.png) no-repeat center / 100% auto;
+    font-size: 25px;
+    color: transparent;
+}
+
+.RE_banner_new .left {
+    width: 475px;
+    padding-right: 13px;
+    text-align: left;
+    position: relative;
+}
+
+.RE_banner_new .left::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 34px;
+    background: rgba(255, 255, 255, 0.19);
+    position: absolute;
+    right: 0;
+    top: 13px;
+}
+
+
+.roof_bnwrap .RE_banner_new .right {
+    width: 475px;
+    padding-left: 13px;
+}
+
+.roof_bnwrap .RE_banner_new .close {
+    width: 50px;
+}
+
+.floating_bn_box {
+    width: 1030px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.floating_bn_box .left_bn {
+    position: absolute;
+    /* left: -112px; */
+    left: -153px;
+    top: 0;
+}
+
+.floating_bn_box .wide_bn_tab a {
+    display: block;
+    height: 77px;
+}
+
+.floating_bn_box .wide_bn_tab {
+    position: absolute;
+    left: -30px;
+    top: 140px;
+}
+
+.floating_bn_box .right_bn {
+    position: absolute;
+    right: -85px;
+    top: 0;;
+}
+
+
+.floating_bn_box .right_bn a {
+    display: block;
+}
+
+.floating_bn_box .right_bn .pink_bn {
+    width: 76px;
+    min-height: 24px;
+    background-color: #EE3C97;
+    border: 1px solid #D92883;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    padding: 3px 0;
+}
+
+.welcome_top_wrap {
+    width: 1030px;
+    margin: 0 auto;
+    background-color: #e5eff7;
+    padding: 5px 5px 0 5px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.welcome_top_content .swiper_wrapper {
+    justify-content: space-evenly;
+}
+
+/* 펼치기 메뉴 */
+
+.categorysub_layer_t a {
+    color: #FFFFFF;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.categorysub_layer_new2 a {
+    color: #333333;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+#head_layer_menu a {
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#head_layer_menu a:hover, .category a:hover, .category > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.hdm {
+    padding: 9px;
+    /* display: none; */
+    position: absolute;
+    background-color: White;
+    width: auto;
+    z-index: 10000;
+    opacity: 1;
+    margin: -5px 0 0 -1px;
+    box-shadow: 0px 3px 16px #00000033;
+}
+
+.categorysub_layer_t {
+    background: #3a3a3a;
+    font-weight: bold;
+    padding: 4px 0 4px 9px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+}
+
+.categorysub_layer_t a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.categorysub_layer_new2 {
+    float: left;
+    background-color: #FFFFFF !important;
+}
+
+.categorysub_layer_new2 ul {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 130px;
+}
+
+.categorysub_layer_new2 li {
+    list-style: none;
+    margin: 0 0 0 10px;
+    font-size: 13px;
+    padding: 2px 0 4px 0;
+}
+
+.header_bottom > ul > li a.tobelogo {
+    color: #26b5bf !important;
+    padding: 0 13px 4px 7px;
+}
+
+.header_bottom > ul > li a.tobelogo::after {
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url(https://image.aladin.co.kr/img/ToBeContinued/common/tb-simbol.svg) no-repeat center / 100% auto;
+    font-size: 0px;
+    color: transparent;
+    margin: -2px 0 0 0px;
+    vertical-align: middle;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.detail_search {
+    font-size: 11px;
+    background: url("../img/gray_arr.gif") no-repeat center right;
+    padding: 0 8px 2px 0;
+    margin: 0 0 0 8px;
+    letter-spacing: -0.5px;
+    color: #737373;
+    position: absolute;
+    right: 0;
+    top: 37px;
+}
+
+
+.price {
+    color: #B54A72;
+}
+
+.author {
+    color: #919191;
+}
+
+
+.header_bottom > ul > li.categoryall > a {
+    width: max-content;
+    background: url("../img/i-menu.png") no-repeat left 8px center;
+    padding: 0 15px 3px 28px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #0f4e8a;
+    font-weight: bold;
+    margin-right: 7px;
+    
+}
+
+.header_bottom > ul {
+    display: flex;
+    position: relative;
+
+}
+
+.header_bottom > ul > li > a {
+    display: inline-block;
+    line-height: 25px;
+    font-size: 13px;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header_bottom > ul.l_menu > li > a.arr::after {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 4px;
+    background: url("../img/arr_drop_blue.png") no-repeat;
+    vertical-align: middle;
+    margin: -2px 0 0 2px;
+}
+
+.header_bottom > ul.l_menu > li > a {
+    width: max-content;
+    color: #0f4e8a;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.header_bottom > ul > li > a {
+    width: max-content;
+    color: #0f4e8a;
+    font-weight: bold;
+    padding: 0 7px 3px 7px;
+    letter-spacing: -0.5px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header_bottom > ul > li.categoryall > a::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    background-color: #DED9D9;
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+
+
+
+.header_bottom > ul.r_menu > li > a {
+    width: max-content;
+    font-size: 13px;
+    color: #dd2483;
+    font-weight: bold;
+    padding: 0 6px 3px 8px;
+    line-height: 25px;
+}
+
+.header_bottom > ul.r_menu > li ~ li::before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 2px;
+    background-color: #dd2483;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 13px;
+}
+
+.header_bottom .header_layer_box_s {
+    min-width: 127px;
+    width: 110px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 3px 16px #00000033;
+    padding: 14px 18px 10px 18px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 10000;
+}
+
+.header_layer_box_s ul li {
+    margin-bottom: 8px;
+}
+
+.header_layer_box_s ul li a {
+    display: block;
+    font-size: 13px;
+    padding: 0;
+    color: #333;
+    text-align: left;
+    word-break: keep-all;
+    letter-spacing: -0.5px;
+}
+
+
+/* ----------------------------------------------------------🔼🔼🔼 Header 🔼🔼🔼---------------------------------------------------------- */
+
+/* 웰컴섹션 elements */
+
+.welcome_section3 .go_tobe a {
+    font-size: 12px;
+    color: #737373;
+}
+
+.welcome_section3 .go_tobe {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.welcome_section4 {
+    width: 1030px;
+    margin: 0 auto 70px auto;
+    position: relative;
+    display: flex;
+}
+
+/* 슬라이더 버튼 */
+
+.white_circle_next::after {
+    content: '';
+    background: url(https://image.aladin.co.kr/img/welcome/arrow-right.svg) no-repeat center / 8px 14px;
+}
+
+.white_circle_next::after, .white_circle_prev::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.white_circle_prev::after {
+    content: '';
+    background: url(https://image.aladin.co.kr/img/welcome/arrow-left.svg) no-repeat center / 8px 14px;
+}
+
+.white_circle_next::after, .white_circle_prev::after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.w_booklist ~ .white_circle_next, .w_booklist ~ .white_circle_prev {
+    top: calc(50% + 8px);
+}
+
+
+.white_circle_next {
+    right: -20px;
+}
+
+.white_circle_prev {
+    left: -20px;
+}
+
+.white_circle_next {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 3px 6px #0000000F;
+    border: 1px solid #E9E9E9;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% + 22px);
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.white_circle_prev {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 3px 6px #0000000F;
+    border: 1px solid #E9E9E9;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% + 22px);
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    background-color: #fff;
+    display: none;
+}
+
+/*swiper bundle */
+
+
+.swiper_touch {
+    touch-action: pan-y;
+}
+
+.swiper_wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    transform-style: preserve-3d;
+    display: flex;
+}
+
+.swiper_item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+
+    margin-right: 30px; 
+}
+
+
+#w_monthBook_type .swiper_section,
+#w_aladinSpecial_type .swiper_section,
+#jinnyWelcome_Back .swiper_section
+{
+    height: 324px !important;
+}
+
+#w_aladinerChoice_type .swiper_section,
+#w_specialPrice_type .swiper_section {
+    height: 340px !important;
+}
+
+
+
+/*================푸터================*/
+
+.aladin_footer {
+    padding-bottom: 50px;
+    text-align: left;
+    line-height: 18px;
+    clear: both;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fff;
+}
+
+.aladin_footer h3 {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:  0 0 15px 0;
+    color: #333;
+    padding: 0;
+}
+
+.footer_menu {
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.footer_menu ul {
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0;
+
+}
+
+.footer_menu ul a {
+    font-size: 13px;
+    color: #333;
+    text-decoration: none;
+}
+
+.aladin_footer .footer_info {
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aladin_footer .aladin_box address {
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.aladin_footer .aladin_box address span {
+    display: inline-block;
+    margin-right: 18px;
+    margin-bottom: 5px;
+}
+
+.aladin_footer .aladin_box address .copyright {
+    color: #737373;
+}
+
+.aladin_footer .footer_info {
+    width: 1030px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aladin_footer .cscenter_box {
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.aladin_footer h3 {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin:  0 0 15px 0;
+    padding: 0;
+}
+
+.aladin_footer .cscenter_box address {
+    font-size: 12px;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+
+.aladin_footer .cscenter_box .cs_link {
+    font-size: 0;
+    margin-bottom: 20px;
+}
+
+.aladin_footer .cscenter_box .cs_link a {
+    display: inline-block;
+    width: 157px;
+    height: 36px;
+    border: 1px #E6E6E6 solid;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 34px;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 2px 0 0;
+}
